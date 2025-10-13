@@ -360,10 +360,30 @@
   .doctor-content {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .doctor-text-section {
+    order: 1;
+  }
+
+  .doctor-text-section h2 {
+    order: 1;
+  }
+
+  .doctor-text-section h3 {
+    order: 2;
   }
 
   .doctor-image-section {
     position: relative;
+    top: 0;
+    order: 3;
+  }
+
+  .doctor-badge {
+    display: none;
   }
 
   .doctor-image {

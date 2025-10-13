@@ -552,6 +552,7 @@
   .trust-stats {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--spacing-md);
+    justify-items: center;
   }
 
   .trust-stat h3 {
@@ -567,9 +568,10 @@
   }
 
   .service-card {
-    box-shadow: var(--shadow-lg);
-    margin-bottom: var(--spacing-md);
+    box-shadow: 0 16px 48px rgba(44, 95, 126, 0.25);
+    margin-bottom: var(--spacing-lg);
     position: relative;
+    border: 1px solid rgba(44, 95, 126, 0.1);
   }
 
   .service-card .service-icon {
@@ -589,39 +591,17 @@
   }
 
   .about-text {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .about-text .subtitle {
     order: 1;
   }
 
-  .about-text h2 {
-    order: 2;
-  }
-
-  .about-text > p {
-    order: 3;
-  }
-
-  .about-image-wrapper {
-    position: relative;
-    order: 4;
-  }
-
-  .about-features {
-    order: 5;
-  }
-
   .about-text .button {
-    order: 6;
     width: fit-content;
     align-self: center;
   }
 
   .about-image-wrapper {
     position: relative;
+    order: 2;
   }
 
   .about-image-main {

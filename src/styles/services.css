@@ -47,8 +47,9 @@
   width: 100%;
   height: 100%;
   border-radius: var(--radius-lg);
-  overflow: hidden;
+  overflow: visible;
   box-shadow: var(--shadow-md);
+  position: relative;
 }
 
 .service-item-image img {
@@ -56,6 +57,7 @@
   height: 100%;
   object-fit: cover;
   min-height: 320px;
+  border-radius: var(--radius-lg);
 }
 
 .service-item-content {
@@ -71,8 +73,11 @@
   align-items: center;
   justify-content: center;
   font-size: 36px;
-  margin-bottom: var(--spacing-md);
   box-shadow: var(--shadow-md);
+  position: absolute;
+  bottom: calc(-72px / 3);
+  right: var(--spacing-lg);
+  z-index: 10;
 }
 
 .service-item-content h3 {
