@@ -1,0 +1,388 @@
+/* About Page Styles */
+.about-page {
+  padding-top: 76px;
+  min-height: 100vh;
+}
+
+.about-hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center 35%;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.about-hero-content h1 {
+  font-size: clamp(42px, 5vw, 64px);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-white);
+  text-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+.about-hero-content p {
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+.team-intro-section {
+  background: var(--color-white);
+  text-align: center;
+}
+
+.team-intro-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.team-intro-content h2 {
+  margin-bottom: var(--spacing-lg);
+}
+
+.team-intro-content p {
+  color: var(--color-gray-dark);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-base);
+}
+
+.doctor-section {
+  background: var(--color-cream);
+}
+
+.doctor-section-valentina {
+  background: var(--color-white);
+}
+
+.doctor-content {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  gap: var(--spacing-xxl);
+  align-items: start;
+}
+
+.doctor-content-reverse {
+  direction: rtl;
+}
+
+.doctor-content-reverse > * {
+  direction: ltr;
+}
+
+.doctor-image-section {
+  position: sticky;
+  top: 100px;
+}
+
+.doctor-image {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.doctor-badge {
+  background: var(--color-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.doctor-badge h3 {
+  font-size: var(--font-size-lg);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.doctor-badge p {
+  font-size: var(--font-size-base);
+  color: var(--color-gray-dark);
+  margin: 0;
+}
+
+.doctor-text-section h2 {
+  margin-bottom: var(--spacing-sm);
+}
+
+.doctor-text-section h3 {
+  font-size: var(--font-size-md);
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-lg);
+  font-family: var(--font-primary);
+}
+
+.doctor-text-section h4 {
+  font-size: var(--font-size-md);
+  color: var(--color-primary);
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  font-family: var(--font-primary);
+}
+
+.doctor-text-section p {
+  color: var(--color-gray-dark);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-base);
+}
+
+.doctor-specialties {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background: var(--color-white);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--color-primary);
+}
+
+.doctor-specialties h4 {
+  margin-top: 0;
+}
+
+.doctor-specialties ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: var(--spacing-xs);
+}
+
+.doctor-specialties li {
+  padding-left: var(--spacing-md);
+  position: relative;
+}
+
+.doctor-specialties li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.education-section {
+  background: var(--color-cream);
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.education-card {
+  background: var(--color-white);
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.education-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg);
+}
+
+.education-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #6ba8cc 0%, #5a9ac0 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  margin: 0 auto var(--spacing-md);
+  box-shadow: var(--shadow-md);
+}
+
+.education-card h3 {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-sm);
+  color: var(--color-black);
+}
+
+.education-degree {
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.education-year {
+  font-size: var(--font-size-sm);
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-md);
+}
+
+.education-card p:last-child {
+  color: var(--color-gray-dark);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+.specialties-section {
+  background: var(--color-white);
+}
+
+.specialties-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.specialty-item {
+  display: flex;
+  gap: var(--spacing-md);
+  padding: var(--spacing-lg);
+  background: var(--color-gray-light);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--color-primary);
+}
+
+.specialty-icon {
+  width: 56px;
+  height: 56px;
+  background: #6ba8cc;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  flex-shrink: 0;
+}
+
+.specialty-item h4 {
+  font-size: var(--font-size-md);
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-black);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.specialty-item p {
+  color: var(--color-gray-dark);
+  line-height: var(--line-height-base);
+  margin: 0;
+}
+
+.philosophy-section {
+  background: var(--color-primary-light);
+}
+
+.philosophy-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.philosophy-content h2 {
+  margin-bottom: var(--spacing-xl);
+}
+
+.philosophy-text {
+  text-align: left;
+}
+
+.philosophy-text p {
+  color: var(--color-gray-dark);
+  line-height: var(--line-height-relaxed);
+  margin-bottom: var(--spacing-lg);
+  font-size: var(--font-size-base);
+}
+
+.about-cta-section {
+  background: var(--color-white);
+}
+
+.about-cta-box {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  padding: var(--spacing-xxl);
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xl);
+  color: var(--color-white);
+}
+
+.about-cta-box h2 {
+  color: var(--color-white);
+  margin-bottom: var(--spacing-md);
+}
+
+.about-cta-box p {
+  font-size: var(--font-size-md);
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: var(--spacing-xl);
+}
+
+.about-cta-box .button {
+  background: var(--color-secondary);
+  color: var(--color-black);
+}
+
+.about-cta-box .button:hover {
+  background: var(--color-accent);
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 1024px) {
+  .education-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .specialties-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    min-height: 60vh;
+  }
+
+  .about-hero-content h1 {
+    font-size: clamp(32px, 8vw, 48px);
+  }
+
+  .about-hero-content p {
+    font-size: var(--font-size-base);
+  }
+
+  .doctor-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .doctor-image-section {
+    position: relative;
+  }
+
+  .doctor-image {
+    height: 400px;
+  }
+
+  .doctor-badge {
+    padding: var(--spacing-md);
+  }
+
+  .doctor-content-reverse {
+    direction: ltr;
+  }
+
+  .education-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-cta-box {
+    padding: var(--spacing-xl);
+  }
+}
