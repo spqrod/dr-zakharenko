@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4f5313b7.css",
+    "main.js": "/static/js/main.cb0b707a.js",
+    "static/media/ultrasound.png": "/static/media/ultrasound.900067835b09009f3290.png",
+    "static/media/operation.png": "/static/media/operation.38af76c5ad0685e530ef.png",
+    "static/media/dres.jpg": "/static/media/dres.af3eaa87ed47a0efc35c.jpg",
+    "static/media/dr-dmitrii.jpg": "/static/media/dr-dmitrii.5897be008b8488b48708.jpg",
+    "static/media/contact-background.jpg": "/static/media/contact-background.92caa50a1598f17e1f00.jpg",
+    "static/media/valentina.jpg": "/static/media/valentina.f07d8b7f4a9743157061.jpg",
+    "static/media/analysis.jpg": "/static/media/analysis.ef9eb18e8384f1de3097.jpg",
+    "static/media/vacunacion.jpg": "/static/media/vacunacion.2d7687e3fad5d26d9529.jpg",
+    "static/media/consulta.jpg": "/static/media/consulta.81c43da6981d81552e78.jpg",
+    "static/media/online-consultation.jpg": "/static/media/online-consultation.7e2781bd16b2c2432e50.jpg",
+    "index.html": "/index.html",
+    "main.4f5313b7.css.map": "/static/css/main.4f5313b7.css.map",
+    "main.cb0b707a.js.map": "/static/js/main.cb0b707a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f5313b7.css",
+    "static/js/main.cb0b707a.js"
+  ]
+}

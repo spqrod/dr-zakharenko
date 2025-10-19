@@ -153,7 +153,23 @@
 
   .service-item {
     grid-template-columns: 1fr;
-    gap: var(--spacing-md);
+    gap: 0;
+    box-shadow: 0 16px 48px rgba(44, 95, 126, 0.25);
+    border: 1px solid rgba(44, 95, 126, 0.1);
+    border-radius: var(--radius-lg);
+    background: var(--color-white);
+    overflow: hidden;
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .service-item-image {
+    box-shadow: none;
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .service-item-content {
+    padding: var(--spacing-lg);
   }
 
   .service-item-image img {

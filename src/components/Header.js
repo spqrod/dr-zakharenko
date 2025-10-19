@@ -53,10 +53,7 @@ function Header() {
 
   const handleLogoClick = (e) => {
     closeMenu();
-    if (window.location.pathname === '/') {
-      e.preventDefault();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
+    setIsLangOpen(false);
   };
 
   const handleLanguageChange = (code, e) => {
